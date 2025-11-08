@@ -1,1 +1,40 @@
+# Tools and Technologies
 
+Tool	Description
+
+Python	Programming language used for implementation
+OpenCV	Library for image processing and computer vision tasks
+NumPy	Used for numerical operations and array manipulation
+Google Colab / Jupyter Notebook	Platform for running and visualizing results
+
+
+# Methodology / Working
+
+Step 1️: Image Acquisition
+
+The system reads the input image using cv2.imread().
+
+Step 2: Grayscale Conversion
+
+Convert the color image to grayscale using cv2.cvtColor() to simplify processing.
+
+Step 3: Noise Reduction
+
+Apply median blur to smooth the image and remove unwanted noise.
+
+Step 4: Edge Detection
+
+Detect prominent edges using adaptive thresholding — this helps create the cartoon outline.
+
+Step 5: Color Filtering
+
+Apply a bilateral filter to retain strong edges but smoothen color regions.
+
+Step 6: Combining Results
+
+Combine the color-filtered image with the edge mask using bitwise operations to form the final cartoon image.
+
+
+Output:
+
+The program converts the input image into a cartoon-styled image with bold outlines and smooth color regions.

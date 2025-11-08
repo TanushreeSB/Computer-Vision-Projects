@@ -1,6 +1,6 @@
-# Computer-Vision-Projects
+## Computer-Vision-Projects
 
-1) Face and Eye Detection
+# 1) Face and Eye Detection
 
 - The Face and Eye Detection System using OpenCV efficiently identifies faces and eyes in real-time video streams. 
 
@@ -11,7 +11,7 @@
 <img width="587" height="421" alt="image" src="https://github.com/user-attachments/assets/caa93a9f-938d-4fbc-901b-d1bb1318688e" />
 
 
-2) Vehicle Detection in Traffic Footage
+# 2) Vehicle Detection in Traffic Footage
 
 - Detects and counts vehicles using a pretrained YOLO model.
 
@@ -20,12 +20,12 @@
 <img width="1915" height="898" alt="image" src="https://github.com/user-attachments/assets/75609126-3ded-40c4-8f92-3fe491edf2fc" />
 
 
-3) Cartoonify an Image
+# 3) Cartoonify an Image
 
 - Turns any photo into a cartoon-style image. 
 
 
-4) Gradient and Edge Detection using OpenCV
+# 4) Gradient and Edge Detection using OpenCV
 
 - In this project, we apply gradient-based edge detection techniques using OpenCV to extract edge information from digital images.
 

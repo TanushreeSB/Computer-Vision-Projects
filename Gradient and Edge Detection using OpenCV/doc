@@ -1,0 +1,67 @@
+1. Introduction:
+
+Edges are one of the most important features in an image. They represent object boundaries and provide information about the shape and structure of objects.
+In this project, we apply gradient-based edge detection techniques using OpenCV to extract edge information from digital images.
+
+By using operators like Sobel, Laplacian, and Canny, the system detects areas of sharp intensity change and visualizes the edges.
+
+2. Objective:
+
+To detect and visualize image edges using gradient-based methods, helping in object boundary detection and feature extraction.
+
+  
+3. Tools and Technologies:
+  
+Tool / Library	Description
+Python	Programming language used for implementation
+OpenCV	Image processing library used for edge detection
+NumPy	For handling image arrays and matrix operations
+Google Colab / Jupyter Notebook	Platform for implementation and visualization
+
+  
+4. Methodology / Working:
+  
+Step 1: Image Input
+
+Load an input image using OpenCV and convert it to grayscale to simplify computation.
+
+Step 2: Gradient Calculation
+
+Compute gradients using the Sobel Operator to find intensity changes in the x and y directions.
+
+Step 3: Laplacian Operator
+
+Apply the Laplacian operator to detect regions with rapid intensity change, providing a sharper edge representation.
+
+Step 4: Canny Edge Detection
+
+Apply Canny Edge Detection, a multi-stage algorithm that uses gradients and thresholding to detect edges more accurately.
+
+Step 5: Visualization
+
+Display the original image along with edge-detected images for comparison.
+
+5. Output
+
+Original Image: Normal photo for reference
+
+Sobel Output: Horizontal and vertical edge detection
+
+Laplacian Output: Sharper, detailed edges
+
+Canny Output: Clean, thin edges representing clear object boundaries
+
+6. Applications
+
+Object detection and segmentation
+
+Lane detection in autonomous vehicles
+
+Shape and contour recognition
+
+Image feature extraction and enhancement
+
+7. Conclusion
+
+The project demonstrates how gradient-based edge detection helps extract essential structural information from images.
+Using OpenCV’s Sobel, Laplacian, and Canny operators, edges and boundaries are efficiently identified, forming the foundation for advanced computer vision applications such as object recognition, tracking, and scene understanding.

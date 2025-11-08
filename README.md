@@ -20,3 +20,7 @@
 
 <img width="1915" height="898" alt="image" src="https://github.com/user-attachments/assets/75609126-3ded-40c4-8f92-3fe491edf2fc" />
 
+
+3) Cartoonify an Image
+
+- Turns any photo into a cartoon-style image. 

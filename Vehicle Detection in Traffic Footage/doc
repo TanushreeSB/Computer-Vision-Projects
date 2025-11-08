@@ -1,1 +1,62 @@
+1. Introduction:
 
+Computer Vision enables machines to interpret and process visual data from the real world.
+In this project, vehicle detection is performed on traffic footage using YOLO (You Only Look Once) — a deep learning-based real-time object detection model.
+The goal is to automatically detect and identify vehicles such as cars, buses, trucks, and motorcycles in a video stream or camera feed, which can be applied for traffic monitoring and management.
+
+2. Objective:
+
+To build a system that can detect and classify different types of vehicles in traffic videos using deep learning techniques integrated with OpenCV.
+
+3. Tools and Technologies:
+
+Tool / Library	Description
+Python	Programming language used for implementation
+OpenCV	For video capture, frame processing, and visualization
+Ultralytics YOLOv8	Pre-trained deep learning model for real-time object detection
+NumPy	For numerical and matrix operations
+Google Colab / Jupyter Notebook	Platform for running the project and visualizing results
+
+4. Methodology / Working:
+
+Step 1: Video Input
+
+The system captures frames from a traffic video file or webcam using OpenCV.
+
+Step 2: Object Detection Model
+
+A pre-trained YOLOv8 model is used to detect objects in each frame.
+YOLO divides the image into grids and predicts bounding boxes and class probabilities simultaneously.
+
+Step 3: Vehicle Classification
+
+The model identifies objects belonging to vehicle categories such as car, bus, truck, motorcycle, etc.
+
+Step 4: Bounding Box Drawing
+
+Bounding boxes and labels are drawn around detected vehicles using OpenCV functions.
+
+Step 5: Output Display
+
+The processed frames are displayed or saved as a new annotated video.
+
+6. Output
+
+Detected vehicles are enclosed within bounding boxes labeled as car, truck, bus, etc.
+
+Each frame of the video displays real-time detection results.
+
+7. Applications
+
+Intelligent Traffic Monitoring Systems
+
+Vehicle Counting and Flow Analysis
+
+Automatic Number Plate Recognition (as an extension)
+
+Smart City and Road Safety Projects
+
+8. Conclusion
+
+This project demonstrates how deep learning and computer vision can be applied to automate vehicle detection in real-time traffic footage.
+By using YOLOv8, the system achieves high accuracy and speed, making it suitable for real-world traffic surveillance and monitoring applications.

@@ -11,7 +11,6 @@
 <img width="587" height="421" alt="image" src="https://github.com/user-attachments/assets/caa93a9f-938d-4fbc-901b-d1bb1318688e" />
 
 
-
 2) Vehicle Detection in Traffic Footage
 
 - Detects and counts vehicles using a pretrained YOLO model.
@@ -24,3 +23,15 @@
 3) Cartoonify an Image
 
 - Turns any photo into a cartoon-style image. 
+
+
+4) Gradient and Edge Detection using OpenCV
+
+- In this project, we apply gradient-based edge detection techniques using OpenCV to extract edge information from digital images.
+
+By using operators like Sobel, Laplacian, and Canny, the system detects areas of sharp intensity change and visualizes the edges.
+
+
+<img width="1108" height="694" alt="image" src="https://github.com/user-attachments/assets/ab7be871-e638-4c8d-bae1-0ae33ce3f5bd" />
+
+   

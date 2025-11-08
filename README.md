@@ -10,7 +10,7 @@
 
 <img width="587" height="421" alt="image" src="https://github.com/user-attachments/assets/caa93a9f-938d-4fbc-901b-d1bb1318688e" />
 
-<br>
+
 
 2) Vehicle Detection in Traffic Footage
 

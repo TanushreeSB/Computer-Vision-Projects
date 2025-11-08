@@ -1,0 +1,27 @@
+# OBJECTIVE:
+
+The main objective of this project is to design a real-time face and eye detection system using the OpenCV library. 
+
+The system automatically detects human faces and eyes from live video or images by applying Haar Cascade Classifiers. 
+
+This project aims to provide a foundation for more advanced applications like face recognition, emotion detection, and security surveillance
+
+# System Implementation and Workflow
+
+The project implements a pipeline that processes either static images or live video feeds:
+
+Input Handling: The system is initialized to accept input from an image file, a pre-recorded video, or a live webcam feed.
+
+Pre-processing: Each frame is immediately converted to grayscale. This is a critical step because Haar features rely on pixel intensity differences, and color information is redundant for this specific task. This simplification also significantly speeds up processing.
+
+Face Detection: The grayscale image is scanned by the pre-trained face cascade classifier at multiple scales. The classifier outputs a list of rectangular coordinates (x, y, width, height) for each detected face.
+
+Eye Detection within Face Regions (Region of Interest - ROI): To improve accuracy and efficiency, the search for eyes is not performed on the entire image. Instead, it is confined to the upper portion of each detected face region. This leverages anatomical constraints (eyes are always in the upper half of the face) and reduces false positives from background clutter. A separate pre-trained eye cascade classifier scans this ROI.
+
+Visualization and Output: For each detected face and eye, a bounding rectangle is drawn onto the original color frame. The system then displays the annotated video stream or saves the processed image.
+
+# Practical Applications and Extensions
+
+The implemented system, while simple, serves as a core module for numerous real-world applications:
+
+
